@@ -9,6 +9,7 @@ body {
 	min-height: 100%;
 }
 
+/*header*/
 header {
 	height: 40px;
 	background-color: rgb(204, 204, 204);
@@ -21,7 +22,6 @@ header {
 nav {
 	text-align: right;
 	margin-top: -9px;
-	
 }
 
 li {
@@ -46,6 +46,7 @@ a:hover {
 	color: #e1f909;
 }
 
+/*main*/
 section {
 	max-width: 100%;
 	min-width: 100%;
@@ -79,6 +80,7 @@ span {
 	font-size: 30px;
 }
 
+/*footer*/
 footer {
 	position: absolute;
 	bottom: -80px;
