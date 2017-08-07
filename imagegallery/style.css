@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+}
+
+div {	
+	width: 25%;
+	float: left;
+	text-align: center;
+	border: 1px solid brown;
+	padding: 5px;
+	background-color: green;
+}
+
+div img {
+	width: 100%;
+	height: 100%;
+}
+
+@media all and (max-width: 440px) {
+	div {
+       	min-width: 100%;
+       	padding: 0;
+	}
+} 
+
+
+@media all and (min-width: 441px) and (max-width: 940px) {
+	div {
+		min-width: 33.3%;
+		padding: 20px
+	}
+}
+
+

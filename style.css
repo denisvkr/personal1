@@ -1,0 +1,96 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	position: relative;
+	background-color: rgb(215, 215, 215); 
+	max-width: 960px inherit;
+	min-height: 100%;
+}
+
+header {
+	min-height: 40px;
+	background-color: rgb(204, 204, 204);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;   
+}
+
+nav {
+	text-align: right;
+	margin-top: 7px;
+	
+}
+
+li {
+	display: inline-block;
+	background-color: #d704dd;
+	border: 2px solid #4b2a4c;
+	border-radius: 7px;
+	margin-right: 20px;
+	padding: 5px 10px;
+}
+
+a {
+	font-family: 'Fira Sans', sans-serif;
+	color: #e8f7f7;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #e1f909;
+}
+
+section {
+	max-width: 100%;
+	min-width: 100%;
+	margin: -30px auto 0 auto;
+	text-align: center;
+}
+
+h1, p {
+	font-family: 'VT323', monospace;
+	color: #d704dd;
+}
+
+h1 {
+	font-size: 60px;
+	margin-top: 80px;
+}
+
+p {
+	font-size: 35px;
+	letter-spacing: 0.1em;
+	margin: -20px 35px 0 35px;
+}
+
+.comingsoon {
+	margin: 15px auto 5px auto;
+}
+
+span {
+	font-family: 'VT323', monospace;
+	color: #d704dd;
+	font-size: 30px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	border-top: 2px groove;
+	text-align: center;
+}
+
+footer p {
+	font-family: 'Fira Sans', sans-serif;
+	color: #070707;
+	font-size: 12px;
+	margin: 0px;
+}
