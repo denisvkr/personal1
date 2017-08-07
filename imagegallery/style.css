@@ -3,14 +3,15 @@
 }
 
 body {
-	background-color: white;
+	position: relative;
+	background-color: rgb(215, 215, 215);
 }
 
 div {	
 	width: 25%;
 	float: left;
 	text-align: center;
-	border: 1px solid brown;
+	border: 3px solid rgb(223, 232, 58);
 	padding: 5px;
 	background-color: green;
 }
