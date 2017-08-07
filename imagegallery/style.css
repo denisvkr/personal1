@@ -36,4 +36,11 @@ div img {
 	}
 }
 
+@media all and (min-width: 941px) {
+	.movecenter {
+		float: none;
+		clear: both;
+		margin: 0 auto;
+	}
+}
 
