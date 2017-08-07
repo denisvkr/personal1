@@ -10,7 +10,7 @@ body {
 }
 
 header {
-	min-height: 40px;
+	height: 40px;
 	background-color: rgb(204, 204, 204);
 	position: fixed;
 	top: 0;
@@ -20,7 +20,7 @@ header {
 
 nav {
 	text-align: right;
-	margin-top: 7px;
+	margin-top: -9px;
 	
 }
 
@@ -81,10 +81,11 @@ span {
 
 footer {
 	position: absolute;
-	bottom: 0px;
+	bottom: -80px;
 	left: 0px;
 	right: 0px;
 	border-top: 2px groove;
+	height: 35px;
 	text-align: center;
 }
 
