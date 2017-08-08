@@ -5,6 +5,49 @@
 body {
 	position: relative;
 	background-color: rgb(215, 215, 215);
+	height: 100%;
+}
+
+/*header*/
+header {
+	height: 40px;
+	background-color: rgb(204, 204, 204);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;   
+}
+
+nav {
+	text-align: right;
+	margin-top: 9px;
+}
+
+li {
+	display: inline-block;
+	background-color: #d704dd;
+	border: 2px solid #4b2a4c;
+	border-radius: 7px;
+	margin-right: 20px;
+	padding: 5px 10px;
+}
+
+a {
+	font-family: 'Fira Sans', sans-serif;
+	color: #e8f7f7;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #e1f909;
+}
+
+/*main*/
+main {
+	margin-top: 44px;
 }
 
 div {	
