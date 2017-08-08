@@ -21,7 +21,7 @@ header {
 
 nav {
 	text-align: right;
-	margin-top: 9px;
+	margin-top: -9px;
 }
 
 li {
@@ -67,11 +67,11 @@ h1 {
 p {
 	font-size: 35px;
 	letter-spacing: 0.1em;
-	margin: 0px 35px 0 35px;
+	margin: -20px 35px 0 35px;
 }
 
 .comingsoon {
-	margin: 30px auto 5px auto;
+	margin: 15px auto 5px auto;
 }
 
 span {
@@ -83,7 +83,7 @@ span {
 /*footer*/
 footer {
 	position: absolute;
-	bottom: -110px;
+	bottom: -80px;
 	left: 0px;
 	right: 0px;
 	border-top: 2px groove;
